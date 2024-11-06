@@ -1,0 +1,22 @@
+import "oaidl.idl";
+import "ocidl.idl";
+
+[uuid(0a7a4655-5660-47d0-8a37-98ae21399e57), version(0.1)]
+library hostlibrary
+{
+    //! [AddHostObjectInterface]
+    [uuid(3a14c9c0-bc3e-453f-a314-4ce4a0ec81d8), object, local]
+        interface Ihost_object_sample : IUnknown
+    {
+        HRESULT testfunc([in] FLOAT value);
+        HRESULT TestFunStr([in] BSTR str);
+        HRESULT QuitGame();
+    };
+    //! [AddHostObjectInterface]
+    [uuid(637abc45-11f7-4dde-84b4-317d62a638d3)]
+        coclass host_object_sample
+    {
+        [default] interface Ihost_object_sample;
+        interface IDispatch;
+    };
+}

@@ -1,0 +1,318 @@
+﻿  64 bit Processing .\message_host_impl.idl
+  message_host_impl.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\oaidl.idl
+  oaidl.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\objidl.idl
+  objidl.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\unknwn.idl
+  unknwn.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\wtypes.idl
+  wtypes.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\wtypesbase.idl
+  wtypesbase.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\basetsd.h
+  basetsd.h
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\guiddef.h
+  guiddef.h
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ocidl.idl
+  ocidl.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\oleidl.idl
+  oleidl.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\servprov.idl
+  servprov.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\urlmon.idl
+  urlmon.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\msxml.idl
+  msxml.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\oaidl.acf
+  oaidl.acf
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ocidl.acf
+  ocidl.acf
+  edge_ue_mgr.cpp
+D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\edge_ue_mgr.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\edge_ue_mgr.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“edge_ue_mgr.cpp”)
+  
+D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\edge_ue_mgr.h(84,18): warning C4251: “edge_ue_mgr::m_RootPath”: class“std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>”需要有 dll 接口由 class“edge_ue_mgr”的客户端使用 
+  (编译源文件“edge_ue_mgr.cpp”)
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(5128,29):
+  参见“std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>”的声明
+  
+D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\edge_ue_mgr.h(85,56): warning C4251: “edge_ue_mgr::message_process_host_map”: class“std::map<HWND,std::weak_ptr<message_process_host>,std::less<HWND>,std::allocator<std::pair<const HWND,std::weak_ptr<message_process_host>>>>”需要有 dll 接口由 class“edge_ue_mgr”的客户端使用 
+  (编译源文件“edge_ue_mgr.cpp”)
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\edge_ue_mgr.h(85,10):
+  参见“std::map<HWND,std::weak_ptr<message_process_host>,std::less<HWND>,std::allocator<std::pair<const HWND,std::weak_ptr<message_process_host>>>>”的声明
+  
+D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(125,18): warning C4251: “webview_interface::m_uniqueID”: class“std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>”需要有 dll 接口由 class“webview_interface”的客户端使用 
+  (编译源文件“edge_ue_mgr.cpp”)
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(5128,29):
+  参见“std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>”的声明
+  
+D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(126,18): warning C4251: “webview_interface::m_download_path”: class“std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>”需要有 dll 接口由 class“webview_interface”的客户端使用 
+  (编译源文件“edge_ue_mgr.cpp”)
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(5128,29):
+  参见“std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>”的声明
+  
+D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(128,45): warning C4251: “webview_interface::NewWindowRequestedEvent”: class“std::function<void (const wchar_t *)>”需要有 dll 接口由 class“webview_interface”的客户端使用 
+  (编译源文件“edge_ue_mgr.cpp”)
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(79,60):
+  参见“std::function<void (const wchar_t *)>”的声明
+  
+D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(129,31): warning C4251: “webview_interface::NavigationCompletedEvent”: class“std::function<void (bool)>”需要有 dll 接口由 class“webview_interface”的客户端使用 
+  (编译源文件“edge_ue_mgr.cpp”)
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(94,43):
+  参见“std::function<void (bool)>”的声明
+  
+D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(130,45): warning C4251: “webview_interface::NavigationStartingEvent”: class“std::function<void (const wchar_t *)>”需要有 dll 接口由 class“webview_interface”的客户端使用 
+  (编译源文件“edge_ue_mgr.cpp”)
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(79,60):
+  参见“std::function<void (const wchar_t *)>”的声明
+  
+D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(131,34): warning C4251: “webview_interface::CursorChangedEvent”: class“std::function<void (HCURSOR)>”需要有 dll 接口由 class“webview_interface”的客户端使用 
+  (编译源文件“edge_ue_mgr.cpp”)
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(103,37):
+  参见“std::function<void (HCURSOR)>”的声明
+  
+D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(132,81): warning C4251: “webview_interface::DownloadStateChangedEvent”: class“std::function<void (e_web_download_state,const wchar_t *)>”需要有 dll 接口由 class“webview_interface”的客户端使用 
+  (编译源文件“edge_ue_mgr.cpp”)
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(107,45):
+  参见“std::function<void (e_web_download_state,const wchar_t *)>”的声明
+  
+D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(133,63): warning C4251: “webview_interface::DownloadProgressEvent”: class“std::function<void (INT64,INT64)>”需要有 dll 接口由 class“webview_interface”的客户端使用 
+  (编译源文件“edge_ue_mgr.cpp”)
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(112,41):
+  参见“std::function<void (INT64,INT64)>”的声明
+  
+D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(134,46): warning C4251: “webview_interface::EstimatedDownloadTimeEvent”: class“std::function<void (const wchar_t *)>”需要有 dll 接口由 class“webview_interface”的客户端使用 
+  (编译源文件“edge_ue_mgr.cpp”)
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(79,60):
+  参见“std::function<void (const wchar_t *)>”的声明
+  
+  message_process_host.cpp
+D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\edge_ue_mgr.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“message_process_host.cpp”)
+  
+D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\edge_ue_mgr.h(84,18): warning C4251: “edge_ue_mgr::m_RootPath”: class“std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>”需要有 dll 接口由 class“edge_ue_mgr”的客户端使用 
+  (编译源文件“message_process_host.cpp”)
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(5128,29):
+  参见“std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>”的声明
+  
+D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\edge_ue_mgr.h(85,56): warning C4251: “edge_ue_mgr::message_process_host_map”: class“std::map<HWND,std::weak_ptr<message_process_host>,std::less<HWND>,std::allocator<std::pair<const HWND,std::weak_ptr<message_process_host>>>>”需要有 dll 接口由 class“edge_ue_mgr”的客户端使用 
+  (编译源文件“message_process_host.cpp”)
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\edge_ue_mgr.h(85,10):
+  参见“std::map<HWND,std::weak_ptr<message_process_host>,std::less<HWND>,std::allocator<std::pair<const HWND,std::weak_ptr<message_process_host>>>>”的声明
+  
+D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(125,18): warning C4251: “webview_interface::m_uniqueID”: class“std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>”需要有 dll 接口由 class“webview_interface”的客户端使用 
+  (编译源文件“message_process_host.cpp”)
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(5128,29):
+  参见“std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>”的声明
+  
+D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(126,18): warning C4251: “webview_interface::m_download_path”: class“std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>”需要有 dll 接口由 class“webview_interface”的客户端使用 
+  (编译源文件“message_process_host.cpp”)
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(5128,29):
+  参见“std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>”的声明
+  
+D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(128,45): warning C4251: “webview_interface::NewWindowRequestedEvent”: class“std::function<void (const wchar_t *)>”需要有 dll 接口由 class“webview_interface”的客户端使用 
+  (编译源文件“message_process_host.cpp”)
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(79,60):
+  参见“std::function<void (const wchar_t *)>”的声明
+  
+D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(129,31): warning C4251: “webview_interface::NavigationCompletedEvent”: class“std::function<void (bool)>”需要有 dll 接口由 class“webview_interface”的客户端使用 
+  (编译源文件“message_process_host.cpp”)
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(94,43):
+  参见“std::function<void (bool)>”的声明
+  
+D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(130,45): warning C4251: “webview_interface::NavigationStartingEvent”: class“std::function<void (const wchar_t *)>”需要有 dll 接口由 class“webview_interface”的客户端使用 
+  (编译源文件“message_process_host.cpp”)
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(79,60):
+  参见“std::function<void (const wchar_t *)>”的声明
+  
+D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(131,34): warning C4251: “webview_interface::CursorChangedEvent”: class“std::function<void (HCURSOR)>”需要有 dll 接口由 class“webview_interface”的客户端使用 
+  (编译源文件“message_process_host.cpp”)
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(103,37):
+  参见“std::function<void (HCURSOR)>”的声明
+  
+D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(132,81): warning C4251: “webview_interface::DownloadStateChangedEvent”: class“std::function<void (e_web_download_state,const wchar_t *)>”需要有 dll 接口由 class“webview_interface”的客户端使用 
+  (编译源文件“message_process_host.cpp”)
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(107,45):
+  参见“std::function<void (e_web_download_state,const wchar_t *)>”的声明
+  
+D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(133,63): warning C4251: “webview_interface::DownloadProgressEvent”: class“std::function<void (INT64,INT64)>”需要有 dll 接口由 class“webview_interface”的客户端使用 
+  (编译源文件“message_process_host.cpp”)
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(112,41):
+  参见“std::function<void (INT64,INT64)>”的声明
+  
+D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(134,46): warning C4251: “webview_interface::EstimatedDownloadTimeEvent”: class“std::function<void (const wchar_t *)>”需要有 dll 接口由 class“webview_interface”的客户端使用 
+  (编译源文件“message_process_host.cpp”)
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(79,60):
+  参见“std::function<void (const wchar_t *)>”的声明
+  
+  message_receive_host.cpp
+D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\edge_ue_mgr.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“message_receive_host.cpp”)
+  
+D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\edge_ue_mgr.h(84,18): warning C4251: “edge_ue_mgr::m_RootPath”: class“std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>”需要有 dll 接口由 class“edge_ue_mgr”的客户端使用 
+  (编译源文件“message_receive_host.cpp”)
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(5128,29):
+  参见“std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>”的声明
+  
+D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\edge_ue_mgr.h(85,56): warning C4251: “edge_ue_mgr::message_process_host_map”: class“std::map<HWND,std::weak_ptr<message_process_host>,std::less<HWND>,std::allocator<std::pair<const HWND,std::weak_ptr<message_process_host>>>>”需要有 dll 接口由 class“edge_ue_mgr”的客户端使用 
+  (编译源文件“message_receive_host.cpp”)
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\edge_ue_mgr.h(85,10):
+  参见“std::map<HWND,std::weak_ptr<message_process_host>,std::less<HWND>,std::allocator<std::pair<const HWND,std::weak_ptr<message_process_host>>>>”的声明
+  
+D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(125,18): warning C4251: “webview_interface::m_uniqueID”: class“std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>”需要有 dll 接口由 class“webview_interface”的客户端使用 
+  (编译源文件“message_receive_host.cpp”)
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(5128,29):
+  参见“std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>”的声明
+  
+D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(126,18): warning C4251: “webview_interface::m_download_path”: class“std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>”需要有 dll 接口由 class“webview_interface”的客户端使用 
+  (编译源文件“message_receive_host.cpp”)
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(5128,29):
+  参见“std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>”的声明
+  
+D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(128,45): warning C4251: “webview_interface::NewWindowRequestedEvent”: class“std::function<void (const wchar_t *)>”需要有 dll 接口由 class“webview_interface”的客户端使用 
+  (编译源文件“message_receive_host.cpp”)
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(79,60):
+  参见“std::function<void (const wchar_t *)>”的声明
+  
+D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(129,31): warning C4251: “webview_interface::NavigationCompletedEvent”: class“std::function<void (bool)>”需要有 dll 接口由 class“webview_interface”的客户端使用 
+  (编译源文件“message_receive_host.cpp”)
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(94,43):
+  参见“std::function<void (bool)>”的声明
+  
+D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(130,45): warning C4251: “webview_interface::NavigationStartingEvent”: class“std::function<void (const wchar_t *)>”需要有 dll 接口由 class“webview_interface”的客户端使用 
+  (编译源文件“message_receive_host.cpp”)
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(79,60):
+  参见“std::function<void (const wchar_t *)>”的声明
+  
+D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(131,34): warning C4251: “webview_interface::CursorChangedEvent”: class“std::function<void (HCURSOR)>”需要有 dll 接口由 class“webview_interface”的客户端使用 
+  (编译源文件“message_receive_host.cpp”)
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(103,37):
+  参见“std::function<void (HCURSOR)>”的声明
+  
+D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(132,81): warning C4251: “webview_interface::DownloadStateChangedEvent”: class“std::function<void (e_web_download_state,const wchar_t *)>”需要有 dll 接口由 class“webview_interface”的客户端使用 
+  (编译源文件“message_receive_host.cpp”)
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(107,45):
+  参见“std::function<void (e_web_download_state,const wchar_t *)>”的声明
+  
+D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(133,63): warning C4251: “webview_interface::DownloadProgressEvent”: class“std::function<void (INT64,INT64)>”需要有 dll 接口由 class“webview_interface”的客户端使用 
+  (编译源文件“message_receive_host.cpp”)
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(112,41):
+  参见“std::function<void (INT64,INT64)>”的声明
+  
+D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(134,46): warning C4251: “webview_interface::EstimatedDownloadTimeEvent”: class“std::function<void (const wchar_t *)>”需要有 dll 接口由 class“webview_interface”的客户端使用 
+  (编译源文件“message_receive_host.cpp”)
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(79,60):
+  参见“std::function<void (const wchar_t *)>”的声明
+  
+  webview_item_ui.cpp
+D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\edge_ue_mgr.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“webview_item_ui.cpp”)
+  
+D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\edge_ue_mgr.h(84,18): warning C4251: “edge_ue_mgr::m_RootPath”: class“std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>”需要有 dll 接口由 class“edge_ue_mgr”的客户端使用 
+  (编译源文件“webview_item_ui.cpp”)
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(5128,29):
+  参见“std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>”的声明
+  
+D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\edge_ue_mgr.h(85,56): warning C4251: “edge_ue_mgr::message_process_host_map”: class“std::map<HWND,std::weak_ptr<message_process_host>,std::less<HWND>,std::allocator<std::pair<const HWND,std::weak_ptr<message_process_host>>>>”需要有 dll 接口由 class“edge_ue_mgr”的客户端使用 
+  (编译源文件“webview_item_ui.cpp”)
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\edge_ue_mgr.h(85,10):
+  参见“std::map<HWND,std::weak_ptr<message_process_host>,std::less<HWND>,std::allocator<std::pair<const HWND,std::weak_ptr<message_process_host>>>>”的声明
+  
+D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(125,18): warning C4251: “webview_interface::m_uniqueID”: class“std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>”需要有 dll 接口由 class“webview_interface”的客户端使用 
+  (编译源文件“webview_item_ui.cpp”)
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(5128,29):
+  参见“std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>”的声明
+  
+D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(126,18): warning C4251: “webview_interface::m_download_path”: class“std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>”需要有 dll 接口由 class“webview_interface”的客户端使用 
+  (编译源文件“webview_item_ui.cpp”)
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(5128,29):
+  参见“std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>”的声明
+  
+D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(128,45): warning C4251: “webview_interface::NewWindowRequestedEvent”: class“std::function<void (const wchar_t *)>”需要有 dll 接口由 class“webview_interface”的客户端使用 
+  (编译源文件“webview_item_ui.cpp”)
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(79,60):
+  参见“std::function<void (const wchar_t *)>”的声明
+  
+D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(129,31): warning C4251: “webview_interface::NavigationCompletedEvent”: class“std::function<void (bool)>”需要有 dll 接口由 class“webview_interface”的客户端使用 
+  (编译源文件“webview_item_ui.cpp”)
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(94,43):
+  参见“std::function<void (bool)>”的声明
+  
+D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(130,45): warning C4251: “webview_interface::NavigationStartingEvent”: class“std::function<void (const wchar_t *)>”需要有 dll 接口由 class“webview_interface”的客户端使用 
+  (编译源文件“webview_item_ui.cpp”)
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(79,60):
+  参见“std::function<void (const wchar_t *)>”的声明
+  
+D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(131,34): warning C4251: “webview_interface::CursorChangedEvent”: class“std::function<void (HCURSOR)>”需要有 dll 接口由 class“webview_interface”的客户端使用 
+  (编译源文件“webview_item_ui.cpp”)
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(103,37):
+  参见“std::function<void (HCURSOR)>”的声明
+  
+D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(132,81): warning C4251: “webview_interface::DownloadStateChangedEvent”: class“std::function<void (e_web_download_state,const wchar_t *)>”需要有 dll 接口由 class“webview_interface”的客户端使用 
+  (编译源文件“webview_item_ui.cpp”)
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(107,45):
+  参见“std::function<void (e_web_download_state,const wchar_t *)>”的声明
+  
+D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(133,63): warning C4251: “webview_interface::DownloadProgressEvent”: class“std::function<void (INT64,INT64)>”需要有 dll 接口由 class“webview_interface”的客户端使用 
+  (编译源文件“webview_item_ui.cpp”)
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(112,41):
+  参见“std::function<void (INT64,INT64)>”的声明
+  
+D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(134,46): warning C4251: “webview_interface::EstimatedDownloadTimeEvent”: class“std::function<void (const wchar_t *)>”需要有 dll 接口由 class“webview_interface”的客户端使用 
+  (编译源文件“webview_item_ui.cpp”)
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\webview_interface.h(79,60):
+  参见“std::function<void (const wchar_t *)>”的声明
+  
+  正在生成代码...
+    正在创建库 ../Edge/dll_lib/Debug/EdgeUE.lib 和对象 ../Edge/dll_lib/Debug/EdgeUE.exp
+  EdgeUE.vcxproj -> D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\Edge\dll_lib\Debug\EdgeUE.dll
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\packages\Microsoft.Web.WebView2.1.0.2730-prerelease\build\native\x64\WebView2Loader.dll
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\packages\Microsoft.Web.WebView2.1.0.2730-prerelease\build\native\x64\WebView2Loader.dll.lib
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\packages\Microsoft.Web.WebView2.1.0.2730-prerelease\build\native\x64\WebView2LoaderStatic.lib
+  复制了 3 个文件
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\packages\Microsoft.Web.WebView2.1.0.2730-prerelease\build\native\include\WebView2.h
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\packages\Microsoft.Web.WebView2.1.0.2730-prerelease\build\native\include\WebView2EnvironmentOptions.h
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\packages\Microsoft.Web.WebView2.1.0.2730-prerelease\build\native\include\WebView2Experimental.h
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\packages\Microsoft.Web.WebView2.1.0.2730-prerelease\build\native\include\WebView2ExperimentalEnvironmentOptions.h
+  复制了 4 个文件
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\packages\Microsoft.Windows.ImplementationLibrary.1.0.240803.1\include\wil\com.h
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\packages\Microsoft.Windows.ImplementationLibrary.1.0.240803.1\include\wil\common.h
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\packages\Microsoft.Windows.ImplementationLibrary.1.0.240803.1\include\wil\com_apartment_variable.h
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\packages\Microsoft.Windows.ImplementationLibrary.1.0.240803.1\include\wil\coroutine.h
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\packages\Microsoft.Windows.ImplementationLibrary.1.0.240803.1\include\wil\cppwinrt.h
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\packages\Microsoft.Windows.ImplementationLibrary.1.0.240803.1\include\wil\cppwinrt_authoring.h
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\packages\Microsoft.Windows.ImplementationLibrary.1.0.240803.1\include\wil\cppwinrt_helpers.h
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\packages\Microsoft.Windows.ImplementationLibrary.1.0.240803.1\include\wil\cppwinrt_notifiable_module_lock.h
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\packages\Microsoft.Windows.ImplementationLibrary.1.0.240803.1\include\wil\cppwinrt_register_com_server.h
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\packages\Microsoft.Windows.ImplementationLibrary.1.0.240803.1\include\wil\cppwinrt_wrl.h
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\packages\Microsoft.Windows.ImplementationLibrary.1.0.240803.1\include\wil\filesystem.h
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\packages\Microsoft.Windows.ImplementationLibrary.1.0.240803.1\include\wil\nt_result_macros.h
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\packages\Microsoft.Windows.ImplementationLibrary.1.0.240803.1\include\wil\registry.h
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\packages\Microsoft.Windows.ImplementationLibrary.1.0.240803.1\include\wil\registry_helpers.h
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\packages\Microsoft.Windows.ImplementationLibrary.1.0.240803.1\include\wil\resource.h
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\packages\Microsoft.Windows.ImplementationLibrary.1.0.240803.1\include\wil\result.h
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\packages\Microsoft.Windows.ImplementationLibrary.1.0.240803.1\include\wil\result_macros.h
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\packages\Microsoft.Windows.ImplementationLibrary.1.0.240803.1\include\wil\result_originate.h
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\packages\Microsoft.Windows.ImplementationLibrary.1.0.240803.1\include\wil\rpc_helpers.h
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\packages\Microsoft.Windows.ImplementationLibrary.1.0.240803.1\include\wil\safecast.h
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\packages\Microsoft.Windows.ImplementationLibrary.1.0.240803.1\include\wil\stl.h
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\packages\Microsoft.Windows.ImplementationLibrary.1.0.240803.1\include\wil\token_helpers.h
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\packages\Microsoft.Windows.ImplementationLibrary.1.0.240803.1\include\wil\Tracelogging.h
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\packages\Microsoft.Windows.ImplementationLibrary.1.0.240803.1\include\wil\traceloggingconfig.h
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\packages\Microsoft.Windows.ImplementationLibrary.1.0.240803.1\include\wil\win32_helpers.h
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\packages\Microsoft.Windows.ImplementationLibrary.1.0.240803.1\include\wil\win32_result_macros.h
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\packages\Microsoft.Windows.ImplementationLibrary.1.0.240803.1\include\wil\windowing.h
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\packages\Microsoft.Windows.ImplementationLibrary.1.0.240803.1\include\wil\winrt.h
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\packages\Microsoft.Windows.ImplementationLibrary.1.0.240803.1\include\wil\wistd_config.h
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\packages\Microsoft.Windows.ImplementationLibrary.1.0.240803.1\include\wil\wistd_functional.h
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\packages\Microsoft.Windows.ImplementationLibrary.1.0.240803.1\include\wil\wistd_memory.h
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\packages\Microsoft.Windows.ImplementationLibrary.1.0.240803.1\include\wil\wistd_type_traits.h
+  D:\workspace\edge-proj5_4\Plugins\WebEdge\Source\ThirdParty\EdgeUE\packages\Microsoft.Windows.ImplementationLibrary.1.0.240803.1\include\wil\wrl.h
+  复制了 33 个文件

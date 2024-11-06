@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en" style="font-size: 50px">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        function resizeFun () {
+            let vWidth = window.innerWidth;
+            let htmlDom = document.getElementsByTagName('html')[0]
+            htmlDom.style.fontSize = `${100 * (vWidth / 266)}px`
+        }
+        resizeFun()
+        window.onresize = () => {
+            resizeFun()
+        }
+    </script>
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        ul,
+        li {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            font-size: .16rem;
+            font-family: SourceHanSansSC-Normal, SourceHanSansSC;
+            font-weight: 400;
+            color: #FFFFFF;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .box {
+            width: 2.66rem;
+            height: 100%;
+            font-size: .16rem;
+            background: rgba(5, 11, 18, 0.8);
+            border-radius: .03rem;
+            box-sizing: border-box;
+            border: .01rem solid #000000;
+            overflow: auto;
+        }
+
+        .header {
+            width: 2.64rem;
+            height: .44rem;
+            line-height: .44rem;
+            padding: .06rem 0;
+        }
+
+        .header .title {
+            display: inline-block;
+            width: 2.24rem;
+            height: .32rem;
+            line-height: .32rem;
+            padding: 0 .2rem;
+            /* background: linear-gradient(270deg, rgba(16, 16, 16, 0) 0%, #295A97 100%); */
+        }
+
+        .header .title span {
+            /* background-color: red; */
+            width: 2.26rem;
+            height: .32rem;
+            display: block;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            font-size: .2rem;
+            font-family: SourceHanSansSC-Bold, SourceHanSansSC;
+            font-weight: bold;
+            color: #FFFFFF;
+        }
+
+        .body ul {
+            padding: .2rem;
+            padding-top: 0;
+        }
+
+        .body li {
+            margin-bottom: .1rem;
+            overflow: hidden;
+        }
+
+        .body li:last-child {
+            margin-bottom: 0;
+        }
+
+        .body li span:first-child {
+            float: left;
+            width: 50%;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+
+        .body li span:last-child {
+            float: right;
+            text-align: right;
+            width: 50%;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="header">
+            <h1 id="title" class="title"></h1>
+        </div>
+        <div class="body">
+            <ul id="content">
+            </ul>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+
+
+        function setBox () {
+            // 获取 展示dom
+            let titDom = document.getElementById('title')
+            let contentDom = document.getElementById('content')
+
+            // 获取 location
+            let localHref = window.location.href;
+            // let localSearch = decodeURI(window.location.search.substr(1));
+            // console.log('localSearch', localSearch)
+            
+            // # 在url中是特殊符号，不能识别，所以这里自己拆分查询部分
+            let search = localHref.substring(localHref.indexOf('?'), localHref.length);
+            let localSearch = decodeURI(search.substr(1));
+
+            // 加工 数据
+            let localData = localSearch.split('&')
+            let titText = localData[0].split('=')[1]
+
+            // 赋值
+            titDom.innerHTML = `<span>${titText}</span>`
+            let contentData = ''
+            localData.forEach((elem, index) => {
+                if (index) {
+                    let elemArr = elem.split('=')
+                    contentData += `<li><span>${elemArr[0]}</span><span>${elemArr[1]}</span></li>`
+
+                }
+            })
+            contentDom.innerHTML = contentData
+        }
+        setBox()
+    </script>
+
+</body>
+
+</html>

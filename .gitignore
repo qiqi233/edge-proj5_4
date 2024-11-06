@@ -14,7 +14,6 @@
 # Compiled Dynamic libraries
 *.so
 *.dylib
-*.dll
 
 # Fortran module files
 *.mod
@@ -24,9 +23,32 @@
 *.lai
 *.la
 *.a
-*.lib
 
 # Executables
 *.exe
 *.out
 *.app
+
+# some files
+*.mp4
+
+Plugins/DTFramework/Binaries/
+Plugins/DTFramework/Intermediate/
+Plugins/CesiumForUnreal
+.vs/
+Binaries/
+Intermediate/
+DerivedDataCache/
+Saved/
+Pak/
+Samples/
+.idea/
+Content/__ExternalActors__/
+Content/__ExternalObjects__/
+Content/Collections/
+Content/Developers/
+Content/StarterContent/
+Plugins/WebEdge/Source/ThirdParty/EdgeUE/packages/
+
+AutoPackageDevp.bat
+AutoPackageShpping.bat

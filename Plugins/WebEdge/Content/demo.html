@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <button onclick="myFunction1()">方法1：点我向UE发送消息</button>
+    <button onclick="myFunction2()">方法2：点我直接掉C++里面的函数（退出游戏）</button>
+    <script>
+        var studentInfo = {
+            "人名": "小明",
+            "数学": 85,
+            "英语": 96,
+            "语文": 60,
+            "性别": "男",
+            "是否合格": true
+        };
+        // 显示JSON数据
+        document.write("<h2>学生信息</h2>");
+        document.write("<pre>" + JSON.stringify(studentInfo, null, 2) + "</pre>");
+        function myFunction1() {
+            //前端发送消息给UE
+            window.chrome.webview.postMessage('hello ue  我是纯字符串信息');
+            window.chrome.webview.postMessage(JSON.stringify(studentInfo, null, 2));
+        }
+
+        function myFunction2() {
+            //chrome.webview.hostObjects.sync.ue.QuitGame();
+            chrome.webview.hostObjects.sync.ue.testfunc(1.0);
+            chrome.webview.hostObjects.sync.ue.TestFunStr('hello ue 我直接调用你的方法了');
+
+            //chrome.webview.hostObjects.sync.ue.triggerUE4EventwithBlank('DocityAction', JSON.stringify(studentInfo, null, 2));
+        }
+
+        //监听UE主动发送给前端的消息
+        window.chrome.webview.addEventListener('message', event => {
+            // Parse the JSON event data
+            const eventData = JSON.parse(event.data);
+
+            // Now you can use eventData which is the message sent from the native app
+            console.log(eventData);
+            alert(eventData);
+        });
+        //ue 主动调用此函数
+        function UECall(messageData) {
+            alert(messageData);
+        }
+    </script>
+
+</body>
+
+</html>
